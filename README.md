@@ -1,4 +1,9 @@
 # Scoreme Assignment
+
+The Scoreme Assignment demonstrates a fully automated Jenkins CI/CD pipeline for a simple Java project. The pipeline integrates multiple tools to ensure high-quality, secure, and well-tested code. 
+
+The pipeline is triggered on each commit to the master branch, ensuring continuous integration and continuous delivery with automated feedback on code quality and security. The setup requires Jenkins with necessary plugins (SonarQube, Slack, Email Extension) and appropriate configuration of external tools. This ensures seamless integration of testing, quality checks, and security scans, helping maintain a high standard for the project’s codebase.
+
 # Sample Java Project
 
 This is a simple Java project created for the Jenkins CI/CD pipeline assignment. 

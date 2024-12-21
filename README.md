@@ -1,6 +1,6 @@
-# Scoreme Assignment
+# Scoreme Assignment: Constructing a Jenkins CI/CD Pipeline
 
-The Scoreme Assignment demonstrates a fully automated Jenkins CI/CD pipeline for a simple Java project. The pipeline integrates multiple tools to ensure high-quality, secure, and well-tested code. 
+This Assignment demonstrates a fully automated Jenkins CI/CD pipeline for a simple Java project. The pipeline integrates multiple tools to ensure high-quality, secure, and well-tested code. 
 
 The pipeline is triggered on each commit to the master branch, ensuring continuous integration and continuous delivery with automated feedback on code quality and security. The setup requires Jenkins with necessary plugins (SonarQube, Slack, Email Extension) and appropriate configuration of external tools. This ensures seamless integration of testing, quality checks, and security scans, helping maintain a high standard for the project’s codebase.
 
@@ -36,10 +36,10 @@ Once the setup is complete, trigger a build manually or on every commit to the `
 6. **Reports**: Publishes the reports to Jenkins.
 
 ### Notifications
-- Email and Slack notifications will be sent on build success or failure.
+Email and Slack notifications will be sent on build success or failure.
 
 ## Troubleshooting
-- Common issues include configuration errors with tools like SonarQube, missing environment variables, and failed tests.
+Common issues include configuration errors with tools like SonarQube, missing environment variables, and failed tests.
 
 ## Conclusion
 This Jenkins pipeline helps maintain high-quality, secure, and well-tested code by integrating automated code quality checks, test coverage, and vulnerability scanning.
@@ -47,3 +47,8 @@ This Jenkins pipeline helps maintain high-quality, secure, and well-tested code 
 ## Additional Documentation
 For detailed instructions, on setting up and configuring the pipeline, refer to the documentation [here](https://docs.google.com/document/d/1iPYn7hw97fI_4DxGWBGribxzHwQ4Vn4h5uQzDhTA5K0/edit?tab=t.0#heading=h.bw00x6ts7i05).
 
+## Author
+**Anuradha Paswan**  
+DevOps Engineer passionate about building efficient CI/CD pipelines and ensuring code quality through automation.  
+[GitHub Profile](https://github.com/anuradha2603)  
+[Email](mailto:anuradha.paswan26@gmail.com)

@@ -50,5 +50,5 @@ For detailed instructions, on setting up and configuring the pipeline, refer to 
 ## Author
 **Anuradha Paswan**  
 DevOps Engineer passionate about building efficient CI/CD pipelines and ensuring code quality through automation.  
-[GitHub Profile](https://github.com/anuradha2603)  
-[Email](mailto:anuradha.paswan26@gmail.com)
+GitHub Profile: [anuradha2603](https://github.com/anuradha2603)  
+Email: [anuradha.paswan26@gmail.com](mailto:anuradha.paswan26@gmail.com)

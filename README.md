@@ -4,32 +4,7 @@ The Scoreme Assignment demonstrates a fully automated Jenkins CI/CD pipeline for
 
 The pipeline is triggered on each commit to the master branch, ensuring continuous integration and continuous delivery with automated feedback on code quality and security. The setup requires Jenkins with necessary plugins (SonarQube, Slack, Email Extension) and appropriate configuration of external tools. This ensures seamless integration of testing, quality checks, and security scans, helping maintain a high standard for the project’s codebase.
 
-# Sample Java Project
-
-This is a simple Java project created for the Jenkins CI/CD pipeline assignment. 
-
-## Features
-- A `HelloWorld` application.
-- Unit tests for code coverage.
-- Configured with Maven for build and dependency management.
-
-## How to Run
-1. Compile the project:
-   ```bash
-   mvn compile
-
-2. Run the tests:
-   ```bash
-    mvn test
-
-3. Generate code coverage reports:
-   ```bash
-    mvn verify
-
-The JaCoCo code coverage report will be available at target/site/jacoco/index.html.
-
-
-# Jenkins CI/CD Pipeline
+## Jenkins CI/CD Pipeline
 
 This repository contains a Jenkins pipeline configured to perform the following CI/CD tasks:
 - **Build**: Compile the Java project using Maven.
@@ -52,7 +27,7 @@ This repository contains a Jenkins pipeline configured to perform the following 
 4. Set up SonarQube, OWASP Dependency-Check, and other tools as described in the pipeline.
 
 ### Running the Pipeline
-Once the setup is complete, trigger a build manually or on every commit to the `main` branch. The pipeline will perform the following stages:
+Once the setup is complete, trigger a build manually or on every commit to the `master` branch. The pipeline will perform the following stages:
 1. **Checkout**: Pulls code from the Git repository.
 2. **Build**: Builds the project using Maven.
 3. **Test and Coverage**: Runs unit tests and generates code coverage reports.

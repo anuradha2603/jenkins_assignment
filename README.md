@@ -44,3 +44,6 @@ Once the setup is complete, trigger a build manually or on every commit to the `
 ## Conclusion
 This Jenkins pipeline helps maintain high-quality, secure, and well-tested code by integrating automated code quality checks, test coverage, and vulnerability scanning.
 
+## Additional Documentation
+For detailed instructions, on setting up and configuring the pipeline, refer to the documentation [here](https://docs.google.com/document/d/1iPYn7hw97fI_4DxGWBGribxzHwQ4Vn4h5uQzDhTA5K0/edit?tab=t.0#heading=h.bw00x6ts7i05).
+
